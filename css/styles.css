@@ -216,7 +216,7 @@ body {
   height: 100%;
   transform: scale(1);
   background-color: rgba(0, 0, 0, 0.2);
-  transition: transform 250ms var(--hover-time);
+  transition: transform 250ms var(--hover-time), opacity 250ms var(--hover-time);
 }
 
 .modal {
@@ -232,6 +232,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  transition: transform 250ms var(--hover-time), opacity 250ms var(--hover-time);
 }
 
 .modal-btn {
@@ -776,6 +777,7 @@ body {
   border-radius: 4px;
   background-color: var(--bg-footer-color);
   padding-left: 16px;
+  color: var(--bg-color);
 }
 
 .call-btn {
