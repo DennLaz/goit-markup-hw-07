@@ -11,7 +11,7 @@
   --hover-time: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section__items, .nav__list, .contacts, .address__list, .socials {
+.section__items, .nav__list, .contacts, .team__social, .clients__list, .address__list, .socials {
   margin: 0;
   padding: 0;
   list-style: none;
