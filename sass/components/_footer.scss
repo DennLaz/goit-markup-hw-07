@@ -1,6 +1,15 @@
 .footer {
   background-color: var(--bg-footer-color);
   padding: 60px 0;
+
+  &__logo {
+    color: var(--bg-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+  }
 }
 
 .footer .container {
@@ -9,22 +18,13 @@
   justify-content: space-between;
 }
 
-.footer__logo {
-  color: var(--bg-color);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-}
-
 .address {
   display: flex;
   margin-top: 20px;
-}
 
-.address__list {
-  @extend %list;
+  &__list {
+    @extend %list;
+  }
 }
 
 .address__link {
@@ -35,11 +35,11 @@
   font-style: normal;
   margin-top: 20px;
   transition: color 250ms var(--hover-time);
-}
 
-.address__link:hover,
-.address__link:focus {
-  color: var(--special-text-color);
+  &:hover,
+  &:focus {
+    color: var(--special-text-color);
+  }
 }
 
 .address__desc {
@@ -53,11 +53,11 @@
   text-decoration: none;
   font-style: normal;
   transition: color 250ms var(--hover-time);
-}
 
-.address__contact:hover,
-.address__contact:focus {
-  color: var(--special-text-color);
+  &:hover,
+  &:focus {
+    color: var(--special-text-color);
+  }
 }
 
 .wrapper {
@@ -81,10 +81,10 @@
   text-align: center;
   justify-content: center;
   margin-top: 20px;
-}
 
-.socials__items:not(:last-child) {
-  margin-right: 10px;
+  &__items:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .socials__link {
@@ -96,11 +96,11 @@
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms var(--hover-time);
-}
 
-.socials__link:hover,
-.socials__link:focus {
-  background-color: var(--special-text-color);
+  &:hover,
+  &:focus {
+    background-color: var(--special-text-color);
+  }
 }
 
 .socials__icon {
@@ -109,18 +109,18 @@
 
 .call {
   margin-left: 93px;
-}
 
-.call__text {
-  color: var(--bg-color);
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 14px;
-  text-decoration: none;
-  font-style: normal;
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 20px;
+  &__text {
+    color: var(--bg-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
 }
 
 .call__box {

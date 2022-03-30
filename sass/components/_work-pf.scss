@@ -2,12 +2,12 @@
   @extend %list;
   display: flex;
   flex-wrap: wrap;
-}
 
-.items__desc {
-  width: calc((100% - 60px) / 3);
-  margin-right: 30px;
-  margin-bottom: 30px;
+  &__desc {
+    width: calc((100% - 60px) / 3);
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
 }
 
 .items__desc:nth-last-child(-n + 3) {
@@ -21,13 +21,13 @@
 .items__links {
   display: block;
   text-decoration: none;
-}
 
-.items__links:hover .items__box,
-.items__links:focus .items__box {
-  transform: translateY(0);
-  transform: scale(1);
-  opacity: 1;
+  &:hover .items__box,
+  &:focus .items__box {
+    transform: translateY(0);
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .items__links:hover,
