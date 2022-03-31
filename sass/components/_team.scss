@@ -6,10 +6,6 @@
 .team__desc {
   width: calc((100%-90px) / 4);
   background-color: var(--bg-color);
-
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
 }
 
 .team__img {
@@ -45,10 +41,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 16px;
-}
-
-.team__list:not(:last-child) {
-  margin-right: 10px;
+  gap: 10px;
 }
 
 .team__link {

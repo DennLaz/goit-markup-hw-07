@@ -61,6 +61,7 @@ body {
 
 .section__items {
   display: flex;
+  gap: 30px;
 }
 
 .header .container {
@@ -84,14 +85,11 @@ body {
 
 .nav__list {
   display: flex;
+  gap: 50px;
 }
 
 .nav__logo {
   color: var(--special-text-color);
-}
-
-.nav__item:not(:last-child) {
-  margin-right: 50px;
 }
 
 .nav__link {
@@ -133,6 +131,7 @@ body {
   margin-left: auto;
   align-items: center;
   justify-content: center;
+  gap: 50px;
 }
 
 .contacts__link {
@@ -155,10 +154,6 @@ body {
   color: var(--special-text-color);
 }
 
-.contacts__item:not(:last-child) {
-  margin-right: 50px;
-}
-
 .contact__icon {
   margin-right: 10px;
   fill: currentColor;
@@ -173,10 +168,7 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-}
-
-.work__filters:not(:last-child) {
-  margin-right: 8px;
+  gap: 8px;
 }
 
 .work__button {
@@ -203,20 +195,11 @@ body {
 .items {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
 }
 
 .items__desc {
   width: calc((100% - 60px) / 3);
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
-
-.items__desc:nth-last-child(-n + 3) {
-  margin-bottom: 0;
-}
-
-.items__desc:nth-child(3n) {
-  margin-right: 0;
 }
 
 .items__links {
@@ -368,10 +351,7 @@ body {
   text-align: center;
   justify-content: center;
   margin-top: 20px;
-}
-
-.socials__items:not(:last-child) {
-  margin-right: 10px;
+  gap: 10px;
 }
 
 .socials__link {

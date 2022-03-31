@@ -44,4 +44,5 @@ body {
 .section__items {
   @extend %list;
   display: flex;
+  gap: 30px;
 }

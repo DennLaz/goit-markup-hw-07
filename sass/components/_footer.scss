@@ -81,10 +81,7 @@
   text-align: center;
   justify-content: center;
   margin-top: 20px;
-
-  &__items:not(:last-child) {
-    margin-right: 10px;
-  }
+  gap: 10px;
 }
 
 .socials__link {

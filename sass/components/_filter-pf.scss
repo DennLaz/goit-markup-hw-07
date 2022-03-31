@@ -8,10 +8,7 @@
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-}
-
-.work__filters:not(:last-child) {
-  margin-right: 8px;
+  gap: 8px;
 }
 
 .work__button {

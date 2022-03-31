@@ -22,12 +22,9 @@
 .clients__list {
   @extend %list;
   display: flex;
+  gap: 30px;
 }
 
 .clients__icon {
   fill: currentColor;
-}
-
-.clients__item:not(:last-child) {
-  margin-right: 30px;
 }
